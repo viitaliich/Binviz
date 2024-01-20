@@ -21,6 +21,13 @@ Using these patterns, we can detect file type knowing nothing about it 🙂
 
 ## Examples
 
+### ASCII english, cyrillic, .docx, .pdf respectively.
+
+### Image .raw, .png .jpg respectively.
+
+### Audio .wav, .mp3 respectively.
+
+### Executable x86_64, .zip respectively.
 
 
 
