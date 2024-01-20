@@ -67,6 +67,7 @@ As can bee seen, some files are compressed, that has impact on result image.
 ## What next?
 
 - [ ] Larger result images
+- [ ] Raw video support
 - [ ] Another type of coordinate system
 - [ ] 3D visualisation
 - [ ] Proper renderer
