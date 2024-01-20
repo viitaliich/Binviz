@@ -43,3 +43,32 @@ Using these patterns, we can detect file type knowing nothing about it 🙂
 
 ![VIZ EXEexe exe](https://github.com/viitaliich/binviz/assets/47535508/a5a11a71-ae9a-4595-a8d7-b552a29e0bb1)
 ![VIZ ZIPfile zip](https://github.com/viitaliich/binviz/assets/47535508/461baa3c-c58b-444d-93a8-feb900ba5845)
+
+As can bee seen, some files are compressed, that has impact on result image.
+
+## How to start
+
+1. Modify **premake5.lua** file to set proper pathes to your files.
+   ```
+   filter "configurations:Debug"
+	defines { "DEBUG" }
+	runtime "Debug"
+	symbols "on"
+	debugargs { 
+		"C:\\dev\\Binviz\\data\\text.txt",
+		"C:\\dev\\Binviz\\data\\image.png",
+		"C:\\dev\\Binviz\\data\\image.png.raw",
+		"C:\\dev\\Binviz\\data\\wav_audio.wav"
+	}
+   ```
+
+2. Run **GenerateProjects.bat** file to generate Visual Studio solution file.
+
+## What next?
+
+[ ] Larger result images
+[ ] Another type of coordinate system
+[ ] 3D visualisation
+[ ] Proper renderer
+[ ] Premake for Mac, Linux
+[ ] Neural network 🙂
