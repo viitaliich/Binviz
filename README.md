@@ -66,9 +66,9 @@ As can bee seen, some files are compressed, that has impact on result image.
 
 ## What next?
 
-[ ] Larger result images
-[ ] Another type of coordinate system
-[ ] 3D visualisation
-[ ] Proper renderer
-[ ] Premake for Mac, Linux
-[ ] Neural network 🙂
+- [ ] Larger result images
+- [ ] Another type of coordinate system
+- [ ] 3D visualisation
+- [ ] Proper renderer
+- [ ] Premake for Mac, Linux
+- [ ] Neural network 🙂
